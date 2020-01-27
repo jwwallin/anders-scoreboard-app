@@ -5,6 +5,7 @@
 }
 
 .ScoreList {
+  margin-top: 15px;
   padding: 25px;
   display: flexbox;
   flex-flow: column;
@@ -12,7 +13,9 @@
 
 .ScoreItem {
   display: flex;
-  border: 1px solid lightslategray;
+  border: 3px solid lightslategray;
+  border-radius: 25px;
+  margin: 4px;
 }
 
 .NameField {
@@ -24,6 +27,7 @@
   width: 50%;
   text-align: right;
   padding: 5px;
+  margin-right: 25px;
 }
 
 .ScoreList {

@@ -2,39 +2,20 @@
   font-size: 35pt;
   text-align: center;
   background: rgb(40, 134, 223);
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-footer {
   background-color: #282c34;
   min-height: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
 
 .Button {
   font-size: 20pt;

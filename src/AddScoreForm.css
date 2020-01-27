@@ -1,8 +1,14 @@
-form {
-  font-size: 11pt;
+.AddScoreForm {
+  padding-bottom: 25px;
+  padding-top: 20px;
+  font-size: 25pt;
 }
 
 input {
   margin: 5px;
   margin-right: 15px;
+}
+
+label {
+  font-size: 16pt;
 }

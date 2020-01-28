@@ -45,7 +45,7 @@ fn main() -> Result<(), Error> {
     let cors = rocket_cors::CorsOptions {
         allowed_origins,
         allowed_methods: vec![Method::Get, Method::Post].into_iter().map(From::from).collect(),
-        allowed_headers: AllowedHeaders::some(&["Accept", "Access-Control-Request-Headers", "Access-Control-Request-Method", "content-type"]),
+        allowed_headers: AllowedHeaders::some(&["Accept", "content-type"]),
         allow_credentials: true,
         ..Default::default()
     }
